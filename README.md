@@ -1,4 +1,4 @@
-🇮🇳 NRI Equity Agent
+**NRI Equity Agent**
 
 An end-to-end AI-powered RAG system for Non-Resident Indian investment queries — combining semantic retrieval over official regulatory documents with a structured knowledge graph and a local LLM.
 
