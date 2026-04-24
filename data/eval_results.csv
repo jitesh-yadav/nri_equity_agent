@@ -1,0 +1,18 @@
+id,category,question,answer,retrieval_relevance,faithfulness,kg_coverage,chunks_used,top_score,collection_routed,retrieval_note,faithfulness_note,latency_s
+S01,sebi,What are SEBI KYC requirements for NRI investors?,"Based on the provided context, here is the answer:
+
+The SEBI KYC requirements for NRI investors have been modified to ease the re-KYC process.
+
+* The requirement of physical location being in India shall be relaxed for NRI clients to undertake due diligence through digital mode. 
+[Source: sebi_nri_R",5,3,0,5,0.788,nri_sebi,The retrieved context provided relevant information on SEBI KYC requirements for NRI investors,"However, the answer introduced new concepts like geo-tagging and re-KYC process not explicitly mentioned in the retrieved context",20.81
+R01,rbi_fema,Can an NRI invest in Indian equities through an NRE account?,"Yes, an NRI can invest in Indian equities through an NRE account.
+
+* According to the RBI guidelines, a Non-Resident Indian (NRI) or Overseas Citizen of India (OCI) is allowed to purchase or sell equity instruments of a listed Indian company on repatriation basis. [Source: rbi_fema_Foreign_Investmen",5,5,1,5,0.788,nri_rbi_fema,The retrieved context provided relevant information on NRE accounts and repatriation basis,The answer accurately stated that an NRI can invest in Indian equities through an NRE account without introducing new concepts or information,23.55
+T01,tax_dtaa,What is the DTAA benefit for NRI in UAE on Indian dividends?,"Based on the provided documents, here's the answer:
+
+* The Double Taxation Agreement (DTAA) between India and UAE provides a benefit to Non-Resident Indians (NRIs) in UAE on Indian dividends.
+* According to Article 11 of the DTAA, interest arising in one country and paid to a resident of the other c",5,3,1,5,0.694,nri_tax_dtaa,The retrieved context contained relevant information about the DTAA and its provisions.,The answer partially strayed from the context by mentioning a source file (tax_dtaa_uae.pdf) and making an unsupported claim about the exemption of NRI in UAE.,31.11
+N01,structured,What is the ISIN for Reliance Industries?,"According to the provided documents:
+
+* The ISIN for Reliance Industries Limited (symbol: RELIANCE) is INE002A01018, as mentioned in [1] Source: nse_equity_list.csv, Page 0.
+* Additionally, it is also confirmed that this company is part of NIFTY50_CONSTITUENTS with the same ISIN code, as per [2] Sou",5,5,1,5,0.759,nri_structured,The retrieved context contained all necessary information to answer the question,The answer did not introduce any new or unsupported claims beyond what was provided in the context,9.11

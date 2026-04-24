@@ -1,0 +1,28 @@
+============================================================
+NRI EQUITY RAG — EVALUATION SUMMARY
+Run at: 2026-04-24 19:11
+Questions evaluated: 4
+============================================================
+
+OVERALL SCORES
+  Retrieval Relevance : 5.00 / 5.0
+  Faithfulness        : 4.00 / 5.0
+  KG Coverage         : 75% of queries got KG facts
+  Avg Latency         : 21.1s per query
+  Avg Chunks Used     : 5.0
+
+BY CATEGORY
+  sebi            | Relevance: 5.00 | Faithfulness: 3.00 | n=1
+  rbi_fema        | Relevance: 5.00 | Faithfulness: 5.00 | n=1
+  tax_dtaa        | Relevance: 5.00 | Faithfulness: 3.00 | n=1
+  structured      | Relevance: 5.00 | Faithfulness: 5.00 | n=1
+
+ROUTING ACCURACY
+  sebi            | Routed correctly: 100%
+  rbi_fema        | Routed correctly: 100%
+  tax_dtaa        | Routed correctly: 100%
+  structured      | Routed correctly: 100%
+
+LOW SCORING QUESTIONS (relevance < 3)
+  None — all questions scored >= 3
+============================================================
